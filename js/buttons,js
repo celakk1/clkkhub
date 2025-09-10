@@ -1,0 +1,5 @@
+document.querySelectorAll(".button").forEach(btn => {
+    btn.addEventListener('click', () => {
+         window.open(btn.dataset.link, '_blank')
+     })
+});
