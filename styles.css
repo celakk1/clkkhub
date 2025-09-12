@@ -1,3 +1,47 @@
+#menupanel {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    opacity: 0;
+    justify-content: flex-start;
+    background: #98989830;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+    width: fit-content;
+    visibility: hidden;
+    align-items: center;
+    min-width: 320px;
+    min-height: 70px;
+}
+
+#changelogpanel,
+#settingspanel {
+    display: none;
+    flex-wrap: wrap;
+    gap: 5px;
+    background: #303030;
+    opacity: 0;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 5px;
+    visibility: hidden;
+    width: 300px;
+}
+
+#menupanel.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+#settingspanel.active,
+#changelogpanel.active {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    width: 300px;
+}
+
 .fade-in {
     opacity: 0;
     transform: translateY(-10px);
@@ -85,6 +129,14 @@
     height: 24px;
     -webkit-mask: url("icons/settings_icon.svg") no-repeat center/contain;
     mask: url("icons/settings_icon.svg") no-repeat center/contain;
+    background-color: currentColor;
+}
+
+.changelog_icon {
+    width: 24px;
+    height: 24px;
+    -webkit-mask: url("icons/changelog_icon.svg") no-repeat center/contain;
+    mask: url("icons/changelog_icon.svg") no-repeat center/contain;
     background-color: currentColor;
 }
 

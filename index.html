@@ -31,7 +31,7 @@
             <div class="windownopadding">
                 <div class="button" data-link="https://github.com/celakk1/clkkhub">
                     <p class="plaintext"> Website </p>
-                    <p class="plaintext description"> Source repo of this website</p>
+                    <p class="plaintext description"> Repository of this website</p>
                 </div>
                 <div class="button" data-link="https://github.com/celakk1">
                     <p class="plaintext"> Placeholder </p>
@@ -43,9 +43,23 @@
         </div>
 
         <div class="sidepanel"> 
-            <div class="panelbutton"> <div class="settings_icon"> </div> </div>
-            <div class="panelbutton"> <div class="settings_icon"> </div> </div>
-            <div class="panelbutton"> <div class="settings_icon"> </div> </div>
+            <div class="panelbutton" onclick="togglesettings()"> 
+                <div class="settings_icon"> </div> 
+            </div>
+
+            <div class="panelbutton" onclick="togglechangelog()"> 
+                <div class="changelog_icon"> </div> 
+            </div>
+        </div>
+
+        <div id="menupanel">
+            <div id="settingspanel">
+                <p> This is a window for settings </p>
+            </div>
+
+            <div id="changelogpanel">
+                <p> This is a window for changelogs </p>
+            </div>
         </div>
         
         <div class="nav fade-in">
