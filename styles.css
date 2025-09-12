@@ -72,10 +72,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: fixed;
     padding: 15px;
     gap: 20px;
     width: 250px;
     line-height: 10px;
+    bottom: 0;
 }
 
 .settings_icon {
