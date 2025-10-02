@@ -8,7 +8,7 @@ function togglesettings() {
     const settings = document.getElementById('settingspanel');
 
     settings.classList.toggle('active');
-    settings.classList.toggle('item-hidden')
+    settings.classList.toggle('item-hidden');
 
     updatemenupanel();
 }
@@ -17,7 +17,7 @@ function togglechangelog() {
     const changelog = document.getElementById('changelogpanel');
 
     changelog.classList.toggle('active');
-    changelog.classList.toggle('item-hidden')
+    changelog.classList.toggle('item-hidden');
 
     updatemenupanel()
 }

@@ -85,8 +85,13 @@
     transition: all 0.2s ease-out;
 }
 
+.panelbutton:active {
+    background: #404040;
+    transform: scale(1.1);
+}
+
 .panelbutton:hover {
-    background: #3a3a3a;
+    background: #404040;
     transform: scale(1.1);
 }
 
