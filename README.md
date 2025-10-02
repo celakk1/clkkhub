@@ -15,7 +15,7 @@ it is lightweight (obviously), written with html, css, and a bit of js.
 - uses [Octicons](https://primer.style/octicons)
 
 ## preview
-[screenshot](images/main_homepage.png)
+![screenshot](images/main_homepage.png)
 
 ## license
 this project is licensed under the [apache license 2.0](LICENSE).
