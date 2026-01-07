@@ -173,7 +173,6 @@ a.invis {
     flex-direction: column;
     justify-content: space-evenly;
     min-width: 200px;
-    max-width: 350px;
     min-height: 200px;
     background-color: rgba(0, 0, 0, 0.1);
 }
