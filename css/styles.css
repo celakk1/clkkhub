@@ -15,7 +15,9 @@
 
 @font-face {
     font-family: 'JetBrains Mono';
-    src: url('../fonts/JetBrainsMono-Regular.woff2') format('woff2'),
+    src: local('JetBrains Mono'),
+        local('JetBrainsMono-Regular'),
+        url('../fonts/JetBrainsMono-Regular.woff2') format('woff2'),
         url('../fonts/JetBrainsMonoNL-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
