@@ -1,4 +1,76 @@
 <p class="logo">/ settings</p>
-<p class="mainwindowtext"> <br>
-    currently, theres nothing yet. come back later!
-</p>
+
+<br>
+
+<div class="settings-list">
+    <div class="setting-card">
+        <div class="setting-header">
+            <p class="buttontext">Theme Variant</p>
+        </div>
+        <select class="select-input" id="theme-variant">
+            <option>default dark</option>
+            <option>purple haze</option>
+            <option>azure</option>
+            <option>emerald</option>
+            <option>ruby</option>
+            <option>monotone</option>
+            <option>cattpuccin</option>
+        </select>
+        <div class="setting-hint-row">
+            <p class="setting-hint">swap background gradient + accents</p>
+            <span class="default-text" data-default-key="themeVariant" data-default-format="string">default</span>
+        </div>
+    </div>
+
+    <div class="setting-card">
+        <div class="setting-header">
+            <p class="buttontext">Animation Speed</p>
+            <span class="setting-value" id="speed-value">10s</span>
+        </div>
+        <input class="range-input" type="range" min="500" max="20000" step="500" value="10000" id="speed-range">
+        <div class="setting-hint-row">
+            <p class="setting-hint">affects gradient transition speed</p>
+            <span class="default-text" data-default-key="animationSpeedMs" data-default-format="seconds">default</span>
+        </div>
+    </div>
+
+    <div class="setting-card">
+        <div class="setting-header">
+            <p class="buttontext">Invert Effects</p>
+            <div class="toggle-wrap">
+                <span class="toggle-state" id="invert-effects-state">enabled</span>
+                <label class="toggle-row">
+                    <input type="checkbox" id="invert-effects-toggle">
+                    <span class="toggle-ui"></span>
+                </label>
+            </div>
+        </div>
+        <div class="setting-hint-row">
+            <p class="setting-hint">disable to remove inversion-style filters</p>
+            <span class="default-text" data-default-key="invertEffectsEnabled"
+                data-default-format="enabled">default</span>
+        </div>
+        <div class="invert-strength-popout" id="invert-strength-group">
+            <div class="setting-header">
+                <p class="buttontext">Invert Strength</p>
+                <span class="setting-value" id="invert-strength-value">0%</span>
+            </div>
+            <input class="range-input" type="range" min="0" max="100" value="100" id="invert-strength-range">
+            <div class="setting-hint-row">
+                <p class="setting-hint">controls inversion intensity (putting it at 100% makes it white smh)</p>
+                <span class="default-text" data-default-key="invertStrengthPercent"
+                    data-default-format="percent">default</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="setting-card settings-actions">
+        <div class="setting-header">
+            <p class="buttontext">Cookies</p>
+        </div>
+        <div class="setting-hint-row">
+            <p class="setting-hint">reset all saved settings</p>
+        </div>
+        <button class="settings-button" id="clear-cookies-btn" type="button">clear cookies</button>
+    </div>
+</div>
