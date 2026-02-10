@@ -1,5 +1,5 @@
 window.THEME_VARIANTS = {
-    "default dark": {
+    "old theme": {
         gradients: [
             ["#212121", "#212121"],
             ["#212121", "#754b8f"],

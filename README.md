@@ -3,7 +3,7 @@
 a personal hub with all my projects in one place.  
 i need to rewrite the readme, give me some time pls
 
-[visit the site](https://celakk1.github.io/clkkhub/)
+### [visit the site](https://celakk1.github.io/clkkhub/)
 
 ---
 
@@ -25,5 +25,5 @@ this project is licensed under the [apache license 2.0](LICENSE).
 
 ---
 
-### note 
-everything on this site might and probably will change over-time.
+> [!NOTE]
+> everything on this site might and probably will change over-time.
